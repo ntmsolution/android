@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="10dp"
+        android:hint="Enter First Name"/>
+
+    <EditText
+        android:id="@+id/edtlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="10dp"
+        android:hint="Enter Last Name"/>
+
+    <EditText
+        android:id="@+id/edtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="10dp"
+        android:hint="Enter Username"/>
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:hint="Enter Password"/>
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add Record"/>
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:text="Save Record"/>
+
+    <Button
+        android:id="@+id/btndisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Display"/>
+
+</LinearLayout>

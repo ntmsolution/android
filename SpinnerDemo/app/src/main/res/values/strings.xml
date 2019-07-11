@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SpinnerDemo</string>
+
+    <string-array name="colorarray">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JSONParsingDemo</string>
+
+
+    <!-- Data Request URLS  -->
+    <string name="apikey">8B89B11A17E191149D5382B338602B6E</string>
+    <string name="getcategory">http://interierdesign.webtechinfoway.pw/feed/Category</string>
+</resources>

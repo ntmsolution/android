@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/tv_fname"
+        style="@style/tvlabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name" />
+
+    <TextView
+        android:id="@+id/tv_lname"
+        style="@style/tvlabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        style="@style/tvlabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/tv_password"
+        style="@style/tvlabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/ic_delete"
+            android:background="@drawable/btndelete"
+            android:text="Delete"
+            />
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_edit"
+            android:text="Edit"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="@drawable/btnedit"
+            />
+    </LinearLayout>
+</LinearLayout>
